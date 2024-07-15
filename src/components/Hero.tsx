@@ -1,4 +1,3 @@
-
 'use client'
 import ArrowwIcon from '../assets/icons/arrow-w.svg';
 import cursorImage from '../assets/images/cursor.png';
@@ -28,20 +27,20 @@ export const Hero = () => {
         </div>
         <div className='flex justify-center mt-8'>
           <div className='inline-flex relative'>
-            <h1 className='text-7xl sm:text-9xl font-bold tracking-tighter text-center  inline-flex'>
+            <h1 className='text-7xl sm:text-9xl font-bold tracking-tighter text-center inline-flex'>
               Amit
               <br /> Masram
             </h1>
             <motion.div className='absolute right-[476px] top-[108px] hidden sm:inline' drag dragSnapToOrigin>
-              <Image src={cursorImage} height="200" width="200" alt="" className='max-w-none' draggable="false" />
+              <Image src={cursorImage} height="200" width="200" alt="Cursor Image" className='max-w-none' draggable="false" />
             </motion.div>
             <motion.div className='absolute left-[598px] top-[56px] hidden sm:inline' drag dragSnapToOrigin>
-              <Image src={messageImage} height="200" width="200" alt="" className='max-w-none' draggable="false" />
+              <Image src={messageImage} height="200" width="200" alt="Message Image" className='max-w-none' draggable="false" />
             </motion.div>
           </div>
         </div>
         <div className='flex justify-center'>
-          <p className='text-center test-xl mt-8 max-w-md'>
+          <p className='text-center text-xl mt-8 max-w-md'>
             Software Developer | Expertise in Mobile App Development & Backend.
           </p>
         </div>
