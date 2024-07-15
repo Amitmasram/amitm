@@ -31,7 +31,7 @@ export const Footer = () => {
             </li>
             <li>
               <a href="https://api.whatsapp.com/send/?phone=918080961469&amp;text=I%27m+interested+in+your+App+Development+service&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">
-                <Image src={WhatsAppIcon} alt="WhatsApp" width={24} height={24} />
+                <Image src={WhatsAppIcon} alt="WhatsApp" width={22} height={22} />
               </a>
             </li>
           </ul>

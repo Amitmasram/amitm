@@ -1,6 +1,5 @@
 'use client'
-import appScreen from "../assets/images/app-screen.png";
-import vsScreen from "../assets/images/portfo.png";
+
 import vsScreen2 from "../assets/images/service.png";
 
 import Image from 'next/image'
@@ -19,9 +18,10 @@ export const ProductShowcase = () => {
       <div className="container">
         <h2 className="text-center font-bold text-5xl sm:text-6xl tracking-tighter">Services I Offer</h2>
         <div className='max-w-xl mx-auto'>
-          <p className="text-center mt-5 text-xl text-white/70">
-" I manage app development with cultivated efficiency, providing a top-class experience."
-          </p>
+        <p className="text-center mt-5 text-xl text-white/70">
+  {'" I manage app development with cultivated efficiency, providing a top-class experience."'}
+</p>
+
         </div>
         <motion.div
           style={{

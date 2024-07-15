@@ -5,6 +5,7 @@ import messageImage from '../assets/images/message.png';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
+
 export const Hero = () => {
   const handleGetResumeClick = () => {
     window.location.href = 'https://drive.google.com/file/d/1CZkHW3C_wbParAuIypqm-IrXOUwBK4iA/view?usp=sharing';
@@ -20,7 +21,7 @@ export const Hero = () => {
               Hello, there!
             </span>
             <span className='inline-flex items-center gap-1'>
-              <span>I'm</span>
+              <span>I&apos;m</span>
               <ArrowwIcon />
             </span>
           </a>
@@ -41,7 +42,7 @@ export const Hero = () => {
         </div>
         <div className='flex justify-center'>
           <p className='text-center text-xl mt-8 max-w-md'>
-            Software Developer | Expertise in Mobile App Development & Backend.
+            Software Developer | Expertise in Mobile App Development &amp; Backend.
           </p>
         </div>
         <div className='flex justify-center mt-8'>

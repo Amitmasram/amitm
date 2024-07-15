@@ -92,7 +92,7 @@ export const LogoTicker = () => {
               transition={{ delay: 1, duration: 1 }}
               className="text-center mt-5 max-w-3xl text-xl text-white/70 py-bottom"
             >
-              Hey, I'm Amit, a passionate software developer skilled in creating robust and scalable applications. With expertise in Flutter, React Native, Node.js, and Go, I specialize in both frontend and backend development. I'm currently pursuing a B.Tech in Information Technology (2025). Occasionally, I contribute to projects and am also an AI enthusiast, continuously expanding my skills and knowledge.
+              Hey, I&apos;m Amit, a passionate software developer skilled in creating robust and scalable applications. With expertise in Flutter, React Native, Node.js, and Go, I specialize in both frontend and backend development. I&apos;m currently pursuing a B.Tech in Information Technology (2025). Occasionally, I contribute to projects and am also an AI enthusiast, continuously expanding my skills and knowledge.
               <motion.span
                 initial="hidden"
                 animate="visible"
