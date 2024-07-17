@@ -9,13 +9,28 @@ const features = [
   {
     title: "CareDash - App",
     description:
-      "I created a Flutter-based app for booking, ​managing, and canceling appointments in ​real time.",
+      "Created a Flutter-based app for booking the nearest ambulance in real-time, ensuring quick and efficient emergency response.",
   },
   {
-    title: "SaaS - App",
+    title: "ProFinder - SaaS App",
     description:
-      "Streamlining the process of finding skilled ​workers for diverse home services, from mobile ​repair to painting, by connecting users with ​nearby professionals efficiently and ​transparently.",
+      "Streamlined the process of finding skilled professionals for various home services, connecting users with nearby experts efficiently and transparently.",
   },
+  // {
+  //   title: "SocialConnect - App",
+  //   description:
+  //     "Built a social networking app that fosters community engagement and interaction with real-time chat and activity feeds.",
+  // },
+  // {
+  //   title: "ShopEase - E-commerce App",
+  //   description:
+  //     "Developed an e-commerce app providing a seamless shopping experience with secure payment integration and user-friendly design.",
+  // },
+  // {
+  //   title: "TradeTracker - App",
+  //   description:
+  //     "Created a trading app that offers real-time market data, portfolio management, and trade execution for users.",
+  // },
 ];
 
 export const Features = () => {
@@ -23,14 +38,14 @@ export const Features = () => {
     <div className="bg-black text-white py-[72px] sm:py-24">
       <div className="container mx-auto">
         <h2 className="text-center font-bold text-5xl sm:text-6xl tracking-tighter">
-        Software Dev Vault
+          Software Dev Vault
         </h2>
         <div className='max-w-xl mx-auto'>
-        <p className="text-center mt-5 text-xl text-white/70">
-        Explore my standout projects, highlighting expertise in user-centric designs and cutting-edge solutions.
-        </p>
+          <p className="text-center mt-5 text-xl text-white/70">
+            Explore my standout projects, highlighting expertise in user-centric designs and cutting-edge solutions.
+          </p>
         </div>
-        <div className="mt-16 flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
           {features.map(({ title, description }) => (
             <Feature title={title} description={description} key={title}/>
           ))}
