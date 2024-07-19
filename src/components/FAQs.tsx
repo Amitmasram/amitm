@@ -51,7 +51,7 @@ export const FAQs = () => {
     {
       question: "What technologies do you specialize in?",
       answer:
-        "I specialize in Flutter,React Native, Node.js and Go, among other technologies. I'm proficient in both frontend and backend development.",
+        "I specialize in Flutter,React and Node.js , among other technologies. I'm proficient in both frontend and backend development.",
     },
     {
       question: "How can I hire you for a project?",

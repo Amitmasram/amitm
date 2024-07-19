@@ -3,7 +3,7 @@ import flutterLogo from "../assets/images/flutter-logo.png";
 import Image from 'next/image';
 import nodejsLogo from "../assets/images/node logo.png";
 import expressjsLogo from "../assets/images/expressjs.png";
-import golangLogo from "../assets/images/Golnag logo.png";
+//import golangLogo from "../assets/images/Golnag logo.png";
 import reactnativeLogo from "../assets/images/reactl.png";
 import mongodbLogo from "../assets/images/mongo2.png";
 import firebaseLogo from "../assets/images/firebaselo.png";
@@ -20,9 +20,9 @@ import { useEffect, useState } from 'react';
 
 const images = [
   { src: flutterLogo, alt: "Flutter Logo", name: "Flutter" },
-  { src: reactnativeLogo, alt: "React Native Logo", name: "React Native" },
+  { src: reactnativeLogo, alt: "React Native Logo", name: "React.js" },
   { src: nodejsLogo, alt: "Node.js Logo", name: "Node.js" },
-  { src: golangLogo, alt: "Go Logo", name: "Go" },
+ // { src: golangLogo, alt: "Go Logo", name: "Go" },
   { src: expressjsLogo, alt: "Express.js Logo", name: "Express.js" },
   { src: mongodbLogo, alt: "MongoDB Logo", name: "MongoDB" },
   { src: firebaseLogo, alt: "Firebase Logo", name: "Firebase" },
@@ -92,7 +92,7 @@ export const LogoTicker = () => {
               transition={{ delay: 1, duration: 1 }}
               className="text-center mt-5 max-w-3xl text-xl text-white/70 py-bottom"
             >
-              Hey, I&apos;m Amit, a passionate software developer skilled in creating robust and scalable applications. With expertise in Flutter, React Native, Node.js, and Go, I specialize in both frontend and backend development. I&apos;m currently pursuing a B.Tech in Information Technology (2025). Occasionally, I contribute to projects and am also an AI enthusiast, continuously expanding my skills and knowledge.
+              Hey, I&apos;m Amit, a passionate software developer skilled in creating robust and scalable applications. With expertise in Flutter, React and Node.js. I specialize in both frontend and backend development. I&apos;m currently pursuing a B.Tech in Information Technology (2025). Occasionally, I contribute to projects and I'm also an AI enthusiast, continuously expanding my skills and knowledge.
               <motion.span
                 initial="hidden"
                 animate="visible"

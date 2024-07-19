@@ -38,7 +38,7 @@ export const Features = () => {
     <div className="bg-black text-white py-[72px] sm:py-24">
       <div className="container mx-auto">
         <h2 className="text-center font-bold text-5xl sm:text-6xl tracking-tighter">
-          Software Dev Vault
+          Software Dev Projects
         </h2>
         <div className='max-w-xl mx-auto'>
           <p className="text-center mt-5 text-xl text-white/70">
