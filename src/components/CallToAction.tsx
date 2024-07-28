@@ -39,9 +39,11 @@ export const CallToAction = () => {
         <p className="text-xl text-white/70 mt-5">
           Let’s collaborate on your next project for app development, backend services, and tech solutions.
         </p>
-        <form className="mt-10 flex flex-col gap-2.5 max-w-sm mx-auto sm:flex-row">
-          <input type="email" placeholder="Enter your email" className="h-12 bg-white/20 rounded-lg px-5 font-medium placeholder:text-[#9CA3AF] sm:flex-1" />
-          <button className="bg-white text-black h-12 rounded-lg font-bold px-5 border hover:border-purple-500">
+        <form action="https://formspree.io/f/xldrjwyo" method="POST" className="mt-10 flex flex-col gap-2.5 max-w-sm mx-auto">
+          <input type="text" name="name" placeholder="Enter your name" className="h-12 bg-white/20 rounded-lg px-5 font-medium placeholder:text-[#9CA3AF]" />
+          <input type="email" name="email" placeholder="Enter your email" className="h-12 bg-white/20 rounded-lg px-5 font-medium placeholder:text-[#9CA3AF]" />
+          <textarea name="message" placeholder="Enter your message" className="h-32 bg-white/20 rounded-lg px-5 py-3 font-medium placeholder:text-[#9CA3AF]" />
+          <button type="submit" className="bg-white text-black h-12 rounded-lg font-bold px-5 border hover:border-purple-500">
             Send Email
           </button>
         </form>
