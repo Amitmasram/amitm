@@ -44,7 +44,7 @@ export const CallToAction = () => {
           <input type="email" name="email" placeholder="Enter your email" className="h-12 bg-white/20 rounded-lg px-5 font-medium placeholder:text-[#9CA3AF]" />
           <textarea name="message" placeholder="Enter your message" className="h-32 bg-white/20 rounded-lg px-5 py-3 font-medium placeholder:text-[#9CA3AF]" />
           <button type="submit" className="bg-white text-black h-12 rounded-lg font-bold px-5 border hover:border-purple-500">
-            Send Email
+            Submit
           </button>
         </form>
       </div>
