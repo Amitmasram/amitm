@@ -11,7 +11,7 @@ export const Footer = () => {
       <div className="container">
         <div className="flex flex-col gap-4 sm:flex-row sm:justify-between">
           <div className="text-center">
-            @ 2024 Made by Amit. Reach out and connect with me!
+            © 2024 Made by Amit. Reach out and connect with me!
           </div>
           <ul className="flex justify-center gap-2.5">
             <li>
