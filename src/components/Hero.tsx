@@ -1,5 +1,6 @@
 'use client'
 import ArrowwIcon from '../assets/icons/arrow-w.svg';
+import DownArrowIcon from '../assets/icons/icons8-down-arrow-16.svg';
 import cursorImage from '../assets/images/cursor.png';
 import messageImage from '../assets/images/message.png';
 import Image from 'next/image';
@@ -22,7 +23,7 @@ export const Hero = () => {
             </span>
             <span className='inline-flex items-center gap-1'>
               <span>I&apos;m</span>
-              <ArrowwIcon />
+              <DownArrowIcon />
             </span>
           </a>
         </div>

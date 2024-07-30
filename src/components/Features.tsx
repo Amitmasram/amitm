@@ -1,36 +1,31 @@
+'use client';
 import { Feature } from "./Feature";
+import TourEaseImage from '../assets/images/tourease.png';
+import CaredashImage from '../assets/images/caredash.png';
+import ProfinderImage from '../assets/images/profinder.png';
 
 const features = [
   {
     title: "TourEase - App",
     description:
       "Developed a Flutter-based virtual tour guide ​app with AI-driven recommendations, ​Firebase integration, and Google Maps API, ​enhancing user engagement.",
+    image: TourEaseImage,
+    github: "https://github.com/Amitmasram/TourEase_App",
   },
   {
     title: "CareDash - App",
     description:
       "Created a Flutter-based app for booking the nearest ambulance in real-time, ensuring quick and efficient emergency response.",
+    image: CaredashImage,
+    github: "https://github.com/Amitmasram/CareDash_App",
   },
   {
     title: "ProFinder - SaaS App",
     description:
       "Streamlined the process of finding skilled professionals for various home services, connecting users with nearby experts efficiently and transparently.",
+    image: ProfinderImage,
+    github: "https://github.com/Amitmasram/ProFinder---App",
   },
-  // {
-  //   title: "SocialConnect - App",
-  //   description:
-  //     "Built a social networking app that fosters community engagement and interaction with real-time chat and activity feeds.",
-  // },
-  // {
-  //   title: "ShopEase - E-commerce App",
-  //   description:
-  //     "Developed an e-commerce app providing a seamless shopping experience with secure payment integration and user-friendly design.",
-  // },
-  // {
-  //   title: "TradeTracker - App",
-  //   description:
-  //     "Created a trading app that offers real-time market data, portfolio management, and trade execution for users.",
-  // },
 ];
 
 export const Features = () => {
@@ -46,8 +41,8 @@ export const Features = () => {
           </p>
         </div>
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
-          {features.map(({ title, description }) => (
-            <Feature title={title} description={description} key={title}/>
+          {features.map(({ title, description, image, github }) => (
+            <Feature title={title} description={description} image={image} github={github} key={title} />
           ))}
         </div>
       </div>
